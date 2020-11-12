@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfae612b-5ad2-4267-bf42-334dd2f622e5" name="Default Changelist" comment="" />
+    <list default="true" id="cfae612b-5ad2-4267-bf42-334dd2f622e5" name="Default Changelist" comment="Laravel">
+      <change afterPath="$PROJECT_DIR$/resources/views/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +24,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -139,6 +149,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kC1BViEtzgmPPL6RyOyknS1bxM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -146,16 +157,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\CarteENC\resources\views" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="art jetstream:install livewire" />
       <command value="art migrate" />
       <command value="art make:model CarteEtudiant -m" />
+      <command value="art migrate:refresh" />
+      <command value="art make:controller CarteEncController --resource" />
     </option>
   </component>
   <component name="RunManager">
@@ -174,34 +192,46 @@
       <updated>1605189623296</updated>
       <workItem from="1605189624317" duration="323000" />
       <workItem from="1605189961924" duration="1509000" />
-      <workItem from="1605192251355" duration="1715000" />
+      <workItem from="1605192251355" duration="4964000" />
     </task>
+    <task id="LOCAL-00001" summary="Laravel">
+      <created>1605194221644</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605194221644</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Laravel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laravel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="279" y="285" key="FileChooserDialogImpl" timestamp="1605190174059">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="279" y="285" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605190174059" />
-    <state width="914" height="403" key="GridCell.Tab.0.bottom" timestamp="1605193582614">
+    <state width="914" height="286" key="GridCell.Tab.0.bottom" timestamp="1605195269453">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="403" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605193582614" />
-    <state width="914" height="403" key="GridCell.Tab.0.center" timestamp="1605193582613">
+    <state width="914" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605195269453" />
+    <state width="914" height="286" key="GridCell.Tab.0.center" timestamp="1605195269453">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="403" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605193582613" />
-    <state width="914" height="403" key="GridCell.Tab.0.left" timestamp="1605193582613">
+    <state width="914" height="286" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605195269453" />
+    <state width="914" height="286" key="GridCell.Tab.0.left" timestamp="1605195269453">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="403" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605193582613" />
-    <state width="914" height="403" key="GridCell.Tab.0.right" timestamp="1605193582614">
+    <state width="914" height="286" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605195269453" />
+    <state width="914" height="286" key="GridCell.Tab.0.right" timestamp="1605195269453">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="403" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605193582614" />
+    <state width="914" height="286" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605195269453" />
     <state x="0" y="188" key="SettingsEditor" timestamp="1605190308457">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -210,9 +240,13 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="269" y="403" key="SymfonyComponentCompositeDataDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605190264190" />
-    <state x="136" y="254" width="672" height="677" key="run.anything.popup" timestamp="1605193582425">
+    <state x="72" y="263" key="Vcs.Push.Dialog.v2" timestamp="1605194232185">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="136" y="254" width="672" height="677" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605193582425" />
+    <state x="72" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605194232185" />
+    <state x="136" y="254" width="672" height="677" key="run.anything.popup" timestamp="1605195269266">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="136" y="254" width="672" height="677" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605195269266" />
   </component>
 </project>

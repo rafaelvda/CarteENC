@@ -21,4 +21,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::resource('demandeCarte', 'CarteEncController');
+Route::resource('demandeCarte', 'CarteEncController')->middleware('auth');
+
+

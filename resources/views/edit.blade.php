@@ -37,6 +37,19 @@
               <input type="text" class="form-control" name="number" value="{{$carteEtudiant->numeroTelephone}}">
             </div>
           </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="form-group col-md-4">
+                    <label>
+                        Section :
+                        <select name="section">
+                            <option value="SIOSLAM">SIO SLAM</option>
+                            <option value="SIOSISR">SIO SISR</option>
+                            <option value="AM">Assistant Manager</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
 
         <div class="row">
           <div class="col-md-4"></div>

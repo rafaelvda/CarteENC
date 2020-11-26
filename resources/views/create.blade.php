@@ -39,6 +39,14 @@
             </div>
           </div>
 
+          <div class="row">
+              <div class="col-md-4"></div>
+              <div class="form-group col-md-4">
+                  <strong>Choisir un fichier</strong>
+                  <input type="file" name="fichier">
+              </div>
+          </div>
+
         <div class="row">
           <div class="col-md-4"></div>
           <div class="form-group col-md-4">
@@ -46,6 +54,20 @@
             <input class="date form-control"  type="text" id="datepicker" name="dateEntreeENC">
          </div>
         </div>
+
+          <div class="row">
+              <div class="col-md-4"></div>
+              <div class="form-group col-md-4">
+                  <label>
+                      Section :
+                      <select name="section">
+                          <option value="SIO SLAM">SIO SLAM</option>
+                          <option value="SIO SISR">SIO SISR</option>
+                          <option value="AM">Assistant Manager</option>
+                      </select>
+                  </label>
+              </div>
+          </div>
 
         <div class="row">
           <div class="col-md-4"></div>

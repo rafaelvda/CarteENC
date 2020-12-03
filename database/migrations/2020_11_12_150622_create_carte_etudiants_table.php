@@ -15,6 +15,7 @@ class CreateCarteEtudiantsTable extends Migration
     {
         Schema::create('carte_etudiants', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->foreignId('user_id');
             $table->string('nomEtudiant');
             $table->date('dateEntreeEnc');
             $table->integer('numeroTelephone');

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
 
 class CarteEncController extends Controller
 {
@@ -14,7 +16,11 @@ class CarteEncController extends Controller
     public function index()
     {
         //
-        $cartesEtudiant = \App\Models\CarteEtudiant::all();
+
+        // Get the currently authenticated user...
+        $cartesEtudiant = Auth::user()->carte;
+
+        //$cartesEtudiant = \App\Models\CarteEtudiant::all();
         return view('index', compact('cartesEtudiant'));
     }
 
@@ -55,7 +61,9 @@ class CarteEncController extends Controller
 
         $carteEtudiant->section = $request->get('section');
         $carteEtudiant->fichier = $nomFichierAttache;
-        $carteEtudiant->save();
+        //$carteEtudiant->save();
+
+        Auth::user()->carte()->save($carteEtudiant);
 
         return redirect('demandeCarte')->with('success', 'Une nouvelle demande a été enregistrée');
     }

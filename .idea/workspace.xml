@@ -22,10 +22,9 @@
     <list default="true" id="cfae612b-5ad2-4267-bf42-334dd2f622e5" name="Default Changelist" comment="Laravel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CarteEncController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CarteEncController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/CarteEtudiant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/CarteEtudiant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_12_150622_create_carte_etudiants_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_12_150622_create_carte_etudiants_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +175,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="P:/SLAM 4/20201012 - Suite POO &amp; début tests unitaires - Eleves/Partie 2 - Solution" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -216,7 +215,9 @@
       <workItem from="1605512060042" duration="792000" />
       <workItem from="1605789444000" duration="11185000" />
       <workItem from="1606116768243" duration="11000" />
-      <workItem from="1606393868936" duration="13991000" />
+      <workItem from="1606393868936" duration="14175000" />
+      <workItem from="1606724129029" duration="229000" />
+      <workItem from="1606999092262" duration="12477000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel">
       <created>1605194221644</created>
@@ -246,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605803322057</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Laravel">
+      <created>1606408115990</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606408115990</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,26 +277,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Laravel" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="279" y="285" key="FileChooserDialogImpl" timestamp="1605190174059">
+    <state x="367" y="229" width="440" height="731" key="FileChooserDialogImpl" timestamp="1606724329673">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="279" y="285" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605190174059" />
-    <state width="1040" height="165" key="GridCell.Tab.0.bottom" timestamp="1606406292058">
+    <state x="367" y="229" width="440" height="731" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1606724329673" />
+    <state width="1040" height="165" key="GridCell.Tab.0.bottom" timestamp="1606408128149">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1040" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606406292058" />
-    <state width="1040" height="165" key="GridCell.Tab.0.center" timestamp="1606406292058">
+    <state width="1040" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606408128149" />
+    <state width="1040" height="165" key="GridCell.Tab.0.center" timestamp="1606408128149">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1040" height="165" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606406292058" />
-    <state width="1040" height="165" key="GridCell.Tab.0.left" timestamp="1606406292058">
+    <state width="1040" height="165" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606408128149" />
+    <state width="1040" height="165" key="GridCell.Tab.0.left" timestamp="1606408128149">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1040" height="165" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606406292058" />
-    <state width="1040" height="165" key="GridCell.Tab.0.right" timestamp="1606406292058">
+    <state width="1040" height="165" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606408128149" />
+    <state width="1040" height="165" key="GridCell.Tab.0.right" timestamp="1606408128149">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1040" height="165" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606406292058" />
+    <state width="1040" height="165" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606408128149" />
     <state x="0" y="188" key="SettingsEditor" timestamp="1605190308457">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -297,13 +305,13 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="269" y="403" key="SymfonyComponentCompositeDataDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605190264190" />
-    <state x="72" y="263" key="Vcs.Push.Dialog.v2" timestamp="1605803324086">
+    <state x="72" y="263" key="Vcs.Push.Dialog.v2" timestamp="1606408118455">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="72" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605803324086" />
-    <state x="136" y="254" width="672" height="677" key="run.anything.popup" timestamp="1606402588078">
+    <state x="72" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606408118455" />
+    <state x="136" y="254" width="672" height="677" key="run.anything.popup" timestamp="1607008132861">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="136" y="254" width="672" height="677" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1606402588078" />
+    <state x="136" y="254" width="672" height="677" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1607008132861" />
   </component>
 </project>

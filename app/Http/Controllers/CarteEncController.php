@@ -43,13 +43,17 @@ class CarteEncController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
         $carteEtudiant = new \App\Models\CarteEtudiant;
         $request->validate([
             'fichier' => 'required|file|max:8192'
         ]);
         $nomFichierAttache = time().request()->fichier->getClientOriginalName();
         $request->fichier->storeAs('fichiers', $nomFichierAttache);
+
+        if (\App\Models\CarteEtudiant :: where('email', '=', $request->get('email'))->exists()){
+            return redirect('demandeCarte/create')->with('error', 'Attention email déja utilisé pour une carte. Veuillez recommencer');
+        }
 
         $carteEtudiant->nomEtudiant = $request->get('nomEtudiantFormulaire');
         $carteEtudiant->email = $request->get('email');
@@ -63,7 +67,7 @@ class CarteEncController extends Controller
         $carteEtudiant->fichier = $nomFichierAttache;
         //$carteEtudiant->save();
 
-        Auth::user()->carte()->save($carteEtudiant);
+        Auth::user()->carte()->save($carteEtudiant); //enregistre dans la base de donnée
 
         return redirect('demandeCarte')->with('success', 'Une nouvelle demande a été enregistrée');
     }

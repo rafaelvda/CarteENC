@@ -62,5 +62,11 @@ class User extends Authenticatable
     public function carte()
     {
         return $this->hasMany('App\Models\CarteEtudiant');
+
+    }
+
+    public function adresse()
+    {
+        return $this->hasMany('App\Models\Adresse');
     }
 }

@@ -57,6 +57,10 @@
                             {{ __('Créer une carte') }}
                         </x-jet-dropdown-link>
 
+                        <x-jet-dropdown-link href="{{ route('demandeAdresse.create') }}">
+                            {{ __('Entrer une nouvelle adresse') }}
+                        </x-jet-dropdown-link>
+
                         @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
                             <x-jet-dropdown-link href="{{ route('api-tokens.index') }}">
                                 {{ __('API Tokens') }}

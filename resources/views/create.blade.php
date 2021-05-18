@@ -14,12 +14,6 @@
   </head>
   <body>
 
-  <?php
-
-  //require './navigation-dropdown.blade.php';
-
-  ?>
-
   @if (\Session::has('error'))
       <div class="alert alert-danger">
           <p>{{ \Session::get('error') }}</p>
